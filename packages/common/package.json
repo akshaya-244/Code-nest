@@ -1,0 +1,16 @@
+{
+    "name": "@repo/common",
+    "version": "1.1.1",
+    "exports": {
+      "./language": "./language/index.ts",
+      "./zod": "./zod/submissionInputs.ts"
+    },
+    
+    "description": "",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "zod": "^3.23.8"
+    }
+  }

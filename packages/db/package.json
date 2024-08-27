@@ -1,0 +1,27 @@
+{
+  "name": "@repo/db",
+  "version": "1.0.3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:seed": "pnpm dlx prisma db seed"
+  },
+  "prisma": {
+    "seed": "pnpm dlx ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.17.0"
+  },
+  "devDependencies": {
+    "prisma": "5.17.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "exports": {
+    "./client": "./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
